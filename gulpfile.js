@@ -12,6 +12,7 @@ const uglify = require("gulp-uglify");
 const plumber = require("gulp-plumber");
 const panini = require("panini");
 const del = require("del");
+// const del = import('del');
 const notify = require("gulp-notify");
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
