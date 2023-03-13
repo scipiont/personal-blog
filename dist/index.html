@@ -12,7 +12,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>MG Webmasters | Home</title>
+    <title>Home</title>
 </head>
 <body>
         <div class="page">
@@ -114,13 +114,176 @@
             </aside>            <!--Main-->
             <main class="main">
                 <div class="container">
-                    
+                    <!--Stories-->
                     <div class="stories">
                         <div class="stories__item">
-                            
+                            <img class="stories__preview" src="assets/images/stories/s1.jpg" alt="">
+                            <div class="stories__title">Отдыхаю на природе</div>
+                            <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
                         </div>
+                        <div class="stories__item">
+                            <img class="stories__preview" src="assets/images/stories/s2.jpg" alt="">
+                            <div class="stories__title">Делаю важный проект</div>
+                            <time class="stories__date" datetime="2020-09-21 19:21">14.08.2020</time>
+                        </div>
+                        <div class="stories__item">
+                            <img class="stories__preview" src="assets/images/stories/s3.jpg" alt="">
+                            <div class="stories__title">Переехал в новый дом</div>
+                            <time class="stories__date" datetime="2020-09-21 19:21">15.09.2020</time>
+                        </div>
+                        <div class="stories__item">
+                            <img class="stories__preview" src="assets/images/stories/s4.jpg" alt="">
+                            <div class="stories__title">Осень</div>
+                            <time class="stories__date" datetime="2020-09-21 19:21">01.10.2020</time>
+                        </div>
+                    </div> <!--/.stories-->
+                    <!--Add post-->
+                    
+                    <div class="addpost">
+                        <form class="addpost__form" action="/" method="post">
+                            <textarea class="addpost__textarea" name="post-text" placeholder="Напишите что-нибудь"></textarea>
+                            <div class="addpost__form-actions">
+                                <label class="addpost__file" for="add-post-file">
+                                    <input type="file" id="add-post-file">
+                                </label>
+                                <button class="addpost__send" type="submit">
+                                    <img src="./assets/images/send.svg" alt="Отправить">
+                                </button>
+                            </div>
+                        </form>
                     </div>
                     
+                    <div class="post">
+                        <div class="post__content">
+                            <p class="post__text">
+                                Праздную 6-летие моего старшего сына
+                            </p>
+                        </div>
+                        <div class="post__footer">
+                            <ul class="post__data">
+                                <li class="post__data-item">
+                                    <time datetime="2020-06-21 19:20">21.06.2020</time>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!--/.post-->
+                    
+                    <article class="post">
+                        <div class="post__header">
+                            <a href="#">
+                                 <img class="post_preview" src="assets/images/post2.jpg" alt="Как писать код быстро и безболезненно ?">
+                            </a>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                <a href="#">Как писать код быстро и безболезненно ?</a>
+                            </h2>
+                            <p class="post__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Optio beatae iure nam facere ut autem harum quasi quod animi quos omnis,
+                                 eligendi nisi, velit accusamus? Dolor eaque pariatur aperiam illo.
+                            </p>
+                        </div>
+                        <div class="post__footer">
+                            <ul class="post__data">
+                                <li class="post__data-item">
+                                    <time datetime="2020-06-21 19:20">21.06.2020</time>
+                                </li>
+                                <li class="post__data-item">
+                                    <a href="#">Создание сайтов</a>
+                                </li>
+                            </ul>
+                            <a class="post__read" href="#">читать</a>
+                        </div>
+                    </article> <!--/.post-->
+                    
+                    <article class="post">
+                        <div class="post__header post__header--video">
+                            <div class="embed">
+                                <!--width="560" height="315"-->
+                                <iframe src="https://www.youtube.com/embed/2CXV1KUom_k" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                                web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                <a href="#">Печка в избе среди Алтайских гор</a>
+                            </h2>
+                         
+                        </div>
+                        <div class="post__footer">
+                            <ul class="post__data">
+                                <li class="post__data-item">
+                                    <time datetime="2020-06-21 19:20">21.06.2020</time>
+                                </li>
+                                <li class="post__data-item">
+                                    <a href="#">продвижение видео</a>
+                                </li>
+                            </ul>
+                            <a class="post__read" href="#">оставить комментарии</a>
+                        </div>
+                    </article> <!--/.post-->
+                    
+                    <article class="post">
+                        <div class="post__header">
+                            <a href="#">
+                                 <img class="post_preview" src="assets/images/post4.jpg" alt="Как я сходил на Conference">
+                            </a>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                <a href="#">Как я сходил на Conference</a>
+                            </h2>
+                            <p class="post__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Optio beatae iure nam facere ut autem harum quasi quod animi quos omnis,
+                                 eligendi nisi, velit accusamus? Dolor eaque pariatur aperiam illo.
+                            </p>
+                        </div>
+                        <div class="post__footer">
+                            <ul class="post__data">
+                                <li class="post__data-item">
+                                    <time datetime="2020-06-21 19:20">21.06.2020</time>
+                                </li>
+                                <li class="post__data-item">
+                                    <a href="#">конференции</a>
+                                </li>
+                            </ul>
+                            <a class="post__read" href="#">читать</a>
+                        </div>
+                    </article> <!--/.post-->
+                    
+                    
+                    <!--Pagination-->
+                    <ul class="pagination">
+                        <li class="pagination__item">
+                            <a class="pagination__link" href="#">
+                                &lt;
+                            </a>
+                        </li>
+                        <li class="pagination__item">
+                            <a class="pagination__link" href="#">
+                                1
+                            </a>
+                        </li>
+                        <li class="pagination__item">
+                            <a class="pagination__link active" href="#">
+                                2
+                            </a>
+                        </li>
+                        <li class="pagination__item">
+                            <a class="pagination__link" href="#">
+                                3
+                            </a>
+                        </li>
+                        <li class="pagination__item">
+                            <a class="pagination__link" href="#">
+                                &gt;
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </main>
 
